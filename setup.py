@@ -13,6 +13,7 @@ requires = [
     'boltons',
     'parse',
     'python-dateutil',
+    'neuro.utils'
 ]
 
 extras_require = dict(
@@ -43,9 +44,9 @@ setup(
     install_requires=requires,
     extras_require=extras_require,
     tests_require=requires,
-    test_suite="neuron.loader.tests",
+    test_suite="neuro.loader.tests",
     entry_points="""
         [console_scripts]
-        loader = neuron.loader.control.loader:main
+        loader = neuro.loader.control.loader:main
     """,
 )
