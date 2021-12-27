@@ -13,7 +13,8 @@ requires = [
     'boltons',
     'parse',
     'python-dateutil',
-    'neuro.utils'
+    'neuro.utils',
+    'pandas',
 ]
 
 extras_require = dict(
