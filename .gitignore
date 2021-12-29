@@ -1,4 +1,5 @@
 # junk & crap
+.vscode
 *.csv
 US*geojson
 vendor*
