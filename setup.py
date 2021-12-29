@@ -15,6 +15,7 @@ requires = [
     'python-dateutil',
     'neuro.utils',
     'pandas',
+    'matplotlib'
 ]
 
 extras_require = dict(
@@ -49,5 +50,6 @@ setup(
     entry_points="""
         [console_scripts]
         loader = neuro.loader.control.loader:main
+        plot = neuro.loader.control.loader:plot
     """,
 )
